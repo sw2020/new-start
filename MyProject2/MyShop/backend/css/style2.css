@@ -1,0 +1,144 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,  
+form,fieldset,legend,button,input,textarea,th,td,section,p,span,font,div{margin:0;padding:0;font-family:"Microsoft yahei";color:#333;}  
+address,cite,dfn,em,var{font-style:normal;}  
+code,kbd,pre,samp{font-family:"Microsoft yahei";}  
+small{font-size:12px;}  
+ul,ol{list-style:none;}  
+a{text-decoration:none!important;color: #000000;}  
+sup{vertical-align:text-top;}  
+sub{vertical-align:text-bottom;}  
+legend{color:#000;}  
+fieldset,img{border:0;}  
+button,input,select,textarea{font-size:100%;}  
+table{border-collapse:collapse;border-spacing:0;}  
+html{
+	box-sizing: border-box;
+	min-width: 992px;
+}
+.head{
+	padding: 10px 0 10px 50px;
+	background-color: #E3E3E3;
+}
+.login-panel{
+	height: 300px;
+	background-color: #EEEEEE;
+	opacity: 0.5;
+	width: 100%;
+}
+.login-form,.login-panel{
+	position: absolute;
+	top: 200px;
+	min-width: 992px;
+	padding-top: 50px;
+}
+.login-form{
+	width: 95%;
+	left: -50px;
+}
+.verify input{
+	height: 30px;
+	width: 200px;
+	margin-left: 15px;
+}
+.verify img{
+	margin-bottom: 2px;
+}
+.header{
+	height: 50px;
+	background-color: dodgerblue;
+	position:fixed!important;
+	z-index:99;
+}
+.header h3{
+	color: white;
+	padding: 10px 0 0 50px;
+	margin: 0;
+}
+.header p {
+	margin: 25px 100px 0 0;
+	
+}
+.left-slide{
+	position: fixed;
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	display: block;
+	padding: 5px 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #E3E3E3;
+}
+.right-slide{
+	margin:50px 0 0 5px;
+	padding: 10px 0 0 20px;
+}
+.right-slide-nav{
+	margin: 10px 0 20px 0;
+}
+.right-slide-nav li{
+	display: inline-block;
+}
+
+.right-slide-nav li:after{
+	content:"/";
+}
+.right-slide-nav li:last-child:after{
+	content:"";
+}
+.navbar-slide{
+	margin: 0 -21px 20px -20px;
+}
+.navbar-slide > li.active > a{
+	color: #EEEEEE;
+	background-color: #428BCA;
+}
+.dropdown2 ul li a:hover{
+	background-color: #EEEEEE;
+}
+.navbar-slide li a,
+.nav-slide li a{
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid #EBEBEB;
+}
+.navbar-slide > li > ul {
+	display: none;
+}
+.navbar-slide > li > ul li a{
+	display: block;
+	padding: 10px 10px 10px 30px;
+}
+@media only screen and (max-width: 1080px) {
+	.left-slide{
+		visibility: hidden;
+	}
+}
+.main-box table{
+	width: 70%;	
+}
+.main-box table tr td{
+	width: 50%;
+	padding: 10px 0;
+}
+.main-box h3{
+	width: 70%;
+	margin:50px 0 20px 0;
+}
+
+/*重置密码表单验证*/
+#myform > input{
+	max-width: 500px;
+}
+.error{
+	color: red;
+	display: block;
+}
+#addpro_form input{
+	max-width: 500px;
+	margin: 8px 0 0 0;
+}
+
+

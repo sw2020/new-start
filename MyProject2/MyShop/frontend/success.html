@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>二手交易平台</title>
+    <link rel="stylesheet" href="../frontend/css/zeroModal.css" />
+    <link rel="stylesheet" href="../frontend/css/style.css" />
+    <script type="text/javascript" src="../frontend/js/jquery.min.js" ></script>
+    <script type="text/javascript" src="../frontend/js/zeroModal.min.js" ></script>
+    <script>
+    	function _success(content,url) {
+	        zeroModal.success({
+	            content: content,
+	            okFn: function() {
+	                window.location=url;
+	            }
+	        });
+	    }
+	    function _error(content,url) {
+	        zeroModal.error({
+	            content: content,
+	            okFn: function() {
+	                window.location=url;
+	            }
+	        });
+	    }
+    </script>
+</head>
+<body>
+</body>
+</html>
